@@ -1,0 +1,82 @@
+.navbar{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #000;
+}
+.drawer-btn{
+    padding: 10px 15px;
+    border: none;
+    background-color: #e8e8e8;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.drawer-btn > svg{
+    fill: black;
+    width: 20px;
+    height: 20px;
+    transition: 0.3s;
+}
+ .drawer-btn:hover{
+    background-color: #a8a8a8;
+}
+.drawer{
+    background-color: #e8e8e8;
+    max-width: 20%;
+    padding: 20px;
+    align-items: center;
+    z-index: 999;
+}
+.links-drawer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30%;
+    width: 100%;
+    gap: 15px;
+    flex: 1;
+}
+.links-drawer > a{
+    color: #000;
+    background-color: transparent;
+    width: 100%;
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    max-width: 300px;
+    transition: 0.3s;
+}
+.links-drawer > a:hover{
+    background-color: #000;
+    color: #e8e8e8;
+}
+.links-drawer > a > svg{
+    width: 30px;
+    height: 30px;
+}
+.copyright{
+    color: black;
+    font-size: 13px;
+}
+
+@media (max-width:1200px) {
+    .drawer{
+        max-width: 50%;
+    }
+}
+@media (max-width:728px) {
+    .navbar{
+        padding: 0 20px;
+    }
+    .drawer{
+        max-width: 80%;
+    }
+}
