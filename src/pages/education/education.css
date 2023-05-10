@@ -1,0 +1,9 @@
+.education{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    scroll-snap-align: center;
+    background-color: black;
+}
