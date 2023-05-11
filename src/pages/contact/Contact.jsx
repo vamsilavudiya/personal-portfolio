@@ -11,12 +11,11 @@ function Contact() {
     emailjs.sendForm("service_uq9xil9", "template_3z47gpj", form.current,"G4AlsdIDBljDKid5y" )
       .then((result) => {
           console.log(result.text);
+          alert("succesfully submited");
       }, (error) => {
           console.log(error.text);
+          alert(error.text);
       });
-      setTimeout(() =>{
-        alert("succesfully submitted Your Messagge")
-      },1000);
   };
   return (
     <div id="contact" className="contact">
