@@ -6,7 +6,7 @@ function Contact() {
     <div id='contact' className='contact'>
       <a href = "mailto:vamsilavadiyaa@gmail.com"> Send Me a Mail</a>
       <a href="sms:+919959553143"> Send Me a SMS</a>
-      <a href = "callto:+919959553143"> Call Me</a>
+      <a href = "tel:+919959553143"> Call Me</a>
     </div>
   )
 }
