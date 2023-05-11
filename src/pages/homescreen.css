@@ -83,6 +83,22 @@ body {
     color: black;
     font-size: 15px;
 }
+.homescreen > .copyright{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0 20%;
+    align-items: center;
+    justify-content: space-between;
+}
+.homescreen > .copyright > p{
+    text-align: center;
+    padding: 10px;
+}
+.homescreen > .copyright > p > span{
+    font-weight: 700;
+}
 
 @media (max-width:1200px) {
     .drawer{

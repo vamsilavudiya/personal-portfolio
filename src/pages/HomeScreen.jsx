@@ -67,6 +67,10 @@ function HomeScreen() {
       <About />
       <Contact />
       <Bottom />
+      <div className="copyright">
+        <p><span>Created By :-</span>Vamsi Lavudiya</p>
+        <p><span>@Copyright</span> - 2023 All rights reserved</p>
+      </div>
     </div>
   );
 }
