@@ -1,10 +1,108 @@
 .contact{
     width: 100%;
     min-height: 100vh;
+    max-height: 100%;
     display: flex;
     gap: 20px;
     align-items: center;
     justify-content: center;
     scroll-snap-align: center;
     background-color: black;
+    padding: 10% 0;
+}
+.contact > .container{
+    width: 50%;
+    padding: 4% 10%;
+    height: 100%;
+}
+.contact > .container > h1{
+    text-align: center;
+    padding: 50px;
+    color: #e8e8e8;
+    font-size: 30px;
+}
+.contact > .container > .inputs{
+    display: flex;
+    flex-direction: column;
+}
+.contact > .container > .inputs > input{
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    background-color: transparent;
+    border-bottom: 1px solid #e8e8e8;
+    border-top: none;
+    border-left: none;
+    color: black;
+    border-right: none;
+    outline: none;
+    transition: 0.3s;
+}
+.contact > .container > .inputs > input:focus{
+    background-color: #e8e8e8;
+}
+.contact > .container > .inputs > textarea{
+    max-width: 100%;
+    padding: 10px 20px;
+    background-color: transparent;
+    color: black;
+    margin-bottom: 10px;
+    border: none;
+    outline: 1px solid #e8e8e8;
+}
+.contact > .container > .inputs > textarea:focus{
+    background-color: #e8e8e8;
+}
+.contact > .container > .inputs > button{
+    padding: 13px 20px;
+    border: 1px solid #e8e8e8;
+    background-color: #e8e8e8;
+    margin: 10px 0;
+    color: black;
+    transition: 0.3s;
+}
+.contact > .container > .inputs > button:hover{
+    background-color: transparent;
+    color: #e8e8e8;
+}
+.contact > .container > .inputs > div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 20px;
+}
+.contact > .container > .inputs > div > a{
+    flex: 1;
+    min-width: 150px;
+    border: 1px solid white;
+    padding: 10px;
+    transition: 0.3s;
+    background-color: transparent;
+}
+.contact > .container > .inputs > div > a:hover{
+background-color: #e8e8e8;
+color: black;
+}
+
+
+@media (max-width:900px) {
+    .contact > .container{
+        width: 80%;
+        padding: 4%;
+        overflow: hidden;
+    }
+}
+@media (max-width:1200px) {
+    .contact > .container{
+        width: 70%;
+        padding: 4% 0;
+        overflow: hidden;
+    }
+}
+@media (max-width:750px) {
+    .contact > .container{
+        width: 100%;
+        padding: 4% 0;
+        overflow: hidden;
+    }
 }

@@ -68,8 +68,11 @@
     .bottom > .links{
         margin-bottom: 20px;
     }
+    .bottom > .links{
+        padding: 10px;
+    }
     .bottom > .links > a{
-        min-width: 300px;
+        min-width: 250px;
         height: 60px;
     }
     .bottom > .links > a > svg{
