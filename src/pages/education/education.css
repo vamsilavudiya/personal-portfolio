@@ -1,9 +1,67 @@
 .education{
     width: 100%;
-    min-height: 100vh;
+    height: 100%;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     scroll-snap-align: center;
     background-color: black;
+}
+.education > h1{
+    font-size: 30px;
+    padding: 60px;
+}
+.education > div {
+    display: flex;
+    flex-direction: row;
+    padding-left: 8%;
+}
+.education > div > .right > img{
+    width: 400px;
+}
+.education > div > .left{
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+    padding: 0 5%;
+}
+.education > div > .left > div{
+    padding: 30px 10px;
+    border-bottom: 1px solid #e8e8e8;
+}
+h3 > span{
+    font-size: 15px;
+    font-weight: 400;
+}
+.education > div > .left > div > div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.education > div > .left > div > p{
+   font-size: 15px;
+   color: grey;
+   margin-top: 10px;
+}
+
+
+
+@media (max-width:780px) {
+    .education > div{
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+        align-items: center;
+    }
+    .education > div > .right > img{
+        width: 300px;
+    }
+    .education > div > .left{
+        max-width: 100%;
+    }
+    .education > div{
+        padding-left: 0;
+    }
 }

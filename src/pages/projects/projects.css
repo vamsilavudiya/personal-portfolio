@@ -33,3 +33,8 @@
 .projects > .cards > .card:nth-child(odd){
     background-color: rgb(58, 58, 58);
 }
+@media (max-width:780px) {
+    .projects > .cards{
+        padding: 0;
+    }
+}
