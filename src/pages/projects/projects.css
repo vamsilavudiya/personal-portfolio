@@ -39,6 +39,7 @@
 }
 .projects > .cards > .card > div > div > h2{
     color: black;
+    font-size: 18px;
 }
 .projects > .cards > .card > div > div > a{
     color: black;
@@ -51,9 +52,12 @@
 
 .projects > .cards > .card > div > span{
     color: black;
+    font-size: 16px;
+    font-weight: 500;
 }
 .projects > .cards > .card > div > p{
     color: black;
+    font-size: 15px;
 }
 .projects > .cards > .card > img{
     width: 100%;
