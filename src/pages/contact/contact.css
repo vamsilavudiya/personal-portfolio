@@ -30,24 +30,26 @@
     border-bottom: 1px solid #e8e8e8;
     border-top: none;
     border-left: none;
-    color: black;
+    color: white;
     border-right: none;
     outline: none;
     transition: 0.3s;
 }
 .contact > .container > .inputs > input:focus{
+    color: black;
     background-color: #e8e8e8;
 }
 .contact > .container > .inputs > textarea{
     max-width: 100%;
     padding: 10px 20px;
     background-color: transparent;
-    color: black;
+    color: white;
     margin-bottom: 10px;
     border: none;
     outline: 1px solid #e8e8e8;
 }
 .contact > .container > .inputs > textarea:focus{
+    color: black;
     background-color: #e8e8e8;
 }
 .contact > .container > .inputs > button{
