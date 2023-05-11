@@ -14,7 +14,9 @@ function Contact() {
       }, (error) => {
           console.log(error.text);
       });
-      alert("succesfully submitted Your Messagge")
+      setTimeout(() =>{
+        alert("succesfully submitted Your Messagge")
+      },1000);
   };
   return (
     <div id="contact" className="contact">
