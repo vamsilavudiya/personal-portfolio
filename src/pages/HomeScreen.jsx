@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import "./homescreen.css";
 import {
   Drawer,
@@ -18,18 +18,9 @@ import About from './about/About';
 function HomeScreen() {
   const { isOpen, onOpen, onClose } = useDisclosure();
   const btnRef = React.useRef();
-  useEffect(() =>{
-    window.addEventListener("load", ()=>{
-      const loadingBar = document.getElementById("loadingsection");
-      loadingBar.style.display = "none";
-    })
-  })
 
   return (
     <div className="homescreen">
-      <div id="loadingsection">
-      <span class="loader"></span>
-      </div>
       <div className="navbar">
         <a className="logo" href="/">Vamsi.Dev</a>
         <div>
