@@ -32,7 +32,6 @@ function Contact() {
           <textarea name='message' placeholder="Enter Your text here" required/>
           <button type="submit">Send Message</button>
           <div>
-            <a href="mailto:vamsilavadiyaa@gmail.com"> Send Me a Mail</a>
             <a href="sms:+919959553143"> Send Me a SMS</a>
             <a href="tel:+919959553143"> Call Me</a>
           </div>

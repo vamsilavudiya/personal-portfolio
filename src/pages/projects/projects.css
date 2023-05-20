@@ -7,6 +7,7 @@
     justify-content: center;
     overflow: hidden;
     background-color: black;
+    padding: 0 20px;
 }
 .projects > h1{
     text-align: center;

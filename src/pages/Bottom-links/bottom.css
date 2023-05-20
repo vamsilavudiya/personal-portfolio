@@ -1,5 +1,6 @@
 .bottom{
-    width: 100%;
+    width: calc(100% - 40px);
+    margin-left: 20px;
     min-height: 50vh;
     display: flex;
     flex-direction: column;
