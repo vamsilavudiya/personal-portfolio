@@ -109,6 +109,7 @@ body {
 @media (max-width:728px) {
     .navbar{
         padding: 0 20px;
+        z-index: 1;
     }
     .drawer{
         max-width: 80%;
