@@ -78,12 +78,4 @@
         gap: 10px;
         margin-bottom: 10px;
     }
-    .main >div > div > a{
-        transform: scale(0.7);
-        z-index: 0;
-    }
-    .main >div > a{
-        transform: scale(0.8);
-        z-index: 0;
-    }
 }
