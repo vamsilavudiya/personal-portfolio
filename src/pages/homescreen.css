@@ -112,6 +112,7 @@ body {
     }
     .drawer{
         max-width: 80%;
+        z-index: 1;
     }
 }
 @media (max-width:852px) {
