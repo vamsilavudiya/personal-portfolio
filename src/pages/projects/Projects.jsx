@@ -1,11 +1,11 @@
 import React from "react";
 import "./projects.css";
-import Project1 from "../../assets/project1.jpg";
-import Project2 from "../../assets/project2.jpg";
-import Project3 from "../../assets/project3.png";
-import Project4 from "../../assets/project4.jpg";
-import Project5 from "../../assets/project5.jpg";
-import Project6 from "../../assets/project6.png";
+// import Project1 from "../../assets/project1.jpg";
+// import Project2 from "../../assets/project2.jpg";
+// import Project3 from "../../assets/project3.png";
+// import Project4 from "../../assets/project4.jpg";
+// import Project5 from "../../assets/project5.jpg";
+// import Project6 from "../../assets/project6.png";
 
 function Projects() {
   return (
@@ -13,7 +13,7 @@ function Projects() {
       <h1>Projects</h1>
       <div className="cards">
         <div className="card card1">
-          <img src={Project1} alt="" />
+          <img src="https://www.freecodecamp.org/news/content/images/2020/04/jsposter.jpg" alt="" />
           <div>
             <div>
               <h2>Amazon Clone</h2>
@@ -27,7 +27,7 @@ function Projects() {
           </div>
         </div>
         <div className="card card2">
-          <img src={Project2} alt="" />
+          <img src="https://c4.wallpaperflare.com/wallpaper/244/9/297/html-programming-code-blue-wallpaper-preview.jpg" alt="" />
           <div>
             <div>
               <h2>Instagram clone</h2>
@@ -41,7 +41,7 @@ function Projects() {
           </div>
         </div>
         <div className="card card3">
-          <img src={Project3} alt="" />
+          <img src="https://c4.wallpaperflare.com/wallpaper/294/834/442/reactjs-facebook-javascript-minimalism-wallpaper-preview.jpg" alt="" />
           <div>
             <div>
               <h2>Table Reservation</h2>
@@ -55,7 +55,7 @@ function Projects() {
           </div>
         </div>
         <div className="card card4">
-          <img src={Project4} alt="" />
+          <img src="https://wallpapercave.com/wp/wp11846988.png" alt="" />
           <div>
             <div>
               <h2>Tesla Clone</h2>
@@ -69,7 +69,7 @@ function Projects() {
           </div>
         </div>
         <div className="card card5">
-          <img src={Project5} alt="" />
+          <img src="https://c4.wallpaperflare.com/wallpaper/241/580/981/css-css3-wallpaper-preview.jpg" alt="" />
           <div>
             <div>
               <h2>Travel Advisor</h2>
@@ -83,7 +83,7 @@ function Projects() {
           </div>
         </div>
         <div className="card card6">
-          <img src={Project6} alt="" />
+          <img src="https://miro.medium.com/v2/resize:fit:2000/1*ED7mmgYYeUZkz8iIz2g3SQ.png" alt="" />
           <div>
             <div>
               <h2>Youtube Clone</h2>
