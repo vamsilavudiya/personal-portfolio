@@ -11,7 +11,9 @@ function Projects() {
   return (
     <div id="projects" className="projects">
       <h1>Projects</h1>
-      <div className="cards">
+
+      <h3>No Project as of now i'll update soon...</h3>
+{/*       <div className="cards">
         <div className="card card1">
           <img src="https://www.freecodecamp.org/news/content/images/2020/04/jsposter.jpg" alt="" />
           <div>
@@ -96,7 +98,7 @@ function Projects() {
             <p>About This project and tell some good things</p>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }
