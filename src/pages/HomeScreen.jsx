@@ -61,8 +61,8 @@ function HomeScreen() {
         </DrawerContent>
       </Drawer>
       <Main />
-      <Projects />
-      <Education />
+      {/* <Projects />
+      <Education /> */}
       <About />
       <Contact />
       <Bottom />
